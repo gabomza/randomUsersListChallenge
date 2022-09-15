@@ -1,0 +1,101 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1),
+    0px 4px 8px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.1);
+  height: 350px;
+  position: relative;
+  width: 300px;
+}
+
+.cardHeader {
+  background-color: #416dff;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color: #fff;
+  font-size: 1.3rem;
+  height: 15%;
+  padding: 10px 0px 40px;
+}
+
+.cardEditButton {
+  cursor: pointer;
+  left: 8px;
+  position: absolute;
+  top: 6px;
+}
+
+.ellipsis {
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cardName {
+  width: 70%;
+}
+
+.cardPicture {
+  position: absolute;
+  left: 25%;
+  top: 50px;
+}
+
+.cardPicture img {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px;
+}
+
+.cardBody {
+  color: #888;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  padding: 110px 0px 20px;
+  position: relative;
+}
+
+.cardBody div:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.cardEmail {
+  width: 90%;
+}
+
+/* Form */
+.cardForm {
+  display: grid;
+  font-size: 0.9rem;
+  font-weight: bold;
+  row-gap: 10px;
+  margin-top: 40px;
+}
+
+.cardForm div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardForm label {
+  line-height: 30px;
+}
+
+.cardForm input {
+  border-radius: 10px;
+  height: 24px;
+  padding-left: 6px;
+  width: 70%;
+}
+
+.cardForm button {
+  background-color: #416dff;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  height: 30px;
+  margin: 10px auto;
+  outline: 0;
+  width: 20%;
+}
